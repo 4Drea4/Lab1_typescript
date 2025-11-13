@@ -16,7 +16,7 @@ export class Product{
         this.price =price;
     }
     displayDetails():string{
-        return `Product: ${this.name} SKU: ${this.sku}) is $${this.price}`;
+        return `Product: ${this.name} SKU: ${this.sku} is $${this.price}`;
     }
        
         // getPriceWithTax() - a method that calculates the final price of the product with tax.
