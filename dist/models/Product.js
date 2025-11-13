@@ -1,27 +1,20 @@
-
-
-
 // Properties: sku (string), name (string), price (number).
-
-export class Product{
-    sku:string;
-    name:string;
-    price:number;
-
+export class Product {
+    sku;
+    name;
+    price;
     // Methods: displayDetails() - a method that returns a formatted string with the product’s details.
-    constructor(sku:string, name:string, price:number){
-
+    constructor(sku, name, price) {
         this.sku = sku;
         this.name = name;
-        this.price =price;
+        this.price = price;
     }
-    displayDetails():string{
+    displayDetails() {
         return `Product: ${this.name} SKU: ${this.sku}) is $${this.price}`;
     }
-       
-        // getPriceWithTax() - a method that calculates the final price of the product with tax.
-    getPriceWithTax(taxDiscount: number = .15): number {
+    // getPriceWithTax() - a method that calculates the final price of the product with tax.
+    getPriceWithTax(taxDiscount = .15) {
         return this.price + this.price * taxDiscount;
-
     }
 }
+//# sourceMappingURL=Product.js.map
