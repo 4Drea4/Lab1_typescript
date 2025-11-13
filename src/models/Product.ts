@@ -1,6 +1,4 @@
 
-
-
 // Properties: sku (string), name (string), price (number).
 
 export class Product{
