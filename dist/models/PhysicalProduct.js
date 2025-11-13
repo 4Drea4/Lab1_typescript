@@ -11,8 +11,7 @@ export class PhysicalProduct extends Product {
         // this.price =price;
     }
     //10 percent tax
-    getPriceWithTax(price, taxDiscount = .10) {
-        price: Number;
+    getPriceWithTax(taxDiscount = .10) {
         return this.price + this.price * taxDiscount;
     }
     displayDetails() {

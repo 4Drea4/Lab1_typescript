@@ -8,5 +8,5 @@ import { Product } from "./models/Product.js";
 // For Physical Product
 const diary = new PhysicalProduct("1234-ID-Bling", "Diary", 15, 35);
 console.log(diary.displayDetails());
-// console.log(diary.getPriceWithTax());
+console.log(diary.getPriceWithTax());
 //# sourceMappingURL=main.js.map

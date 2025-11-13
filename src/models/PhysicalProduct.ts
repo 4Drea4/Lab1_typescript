@@ -16,8 +16,8 @@ export class PhysicalProduct extends Product{
         
     }
 //10 percent tax
-    getPriceWithTax(price:number,taxDiscount: number = .10): number {
-        price:Number;
+    getPriceWithTax(taxDiscount: number = .10): number {
+        
         return this.price + this.price * taxDiscount;
 
     }

@@ -14,4 +14,4 @@ import {Product} from "./models/Product.js";
 
 const diary = new PhysicalProduct("1234-ID-Bling", "Diary", 15, 35 );
 console.log(diary.displayDetails());
-// console.log(diary.getPriceWithTax());
+ console.log(diary.getPriceWithTax());
