@@ -20,18 +20,7 @@ console.log(diary.displayDetails());
 // for (  )
 // Map or get 
 //make sure to add stops
-let i = 0 
-while(i< 3 ) {
-    i = i++; 
-
-}
-
-
-if new Product(true){
-
-    return Product.displayDetails();
-
-}
+// return Product.displayDetails();
 
 
 
