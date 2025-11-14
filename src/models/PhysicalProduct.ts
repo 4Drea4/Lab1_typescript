@@ -1,6 +1,5 @@
 
 
-// Use a getter method to return the formatted weight in kilograms (e.g. “2.5 kg”).
  import {Product} from "./Product.js";
 
 
@@ -21,6 +20,8 @@ export class PhysicalProduct extends Product{
     getPriceWithTax(taxDiscount: number = .10): number {
         return this.price + this.price * taxDiscount;
     }
+
+// Use a getter method to return the formatted weight in kilograms (e.g. “2.5 kg”).
     displayDetails():string{
         return `${super.displayDetails()} Weight: ${this.weight}`;
     }
