@@ -8,8 +8,11 @@ import {calculateTax} from "./utils/taxCalculator.js"
 
 // PhysicalProduct and DigitalProduct and create instances of both.
 
-const ebook = new DigitalProduct("1234-ID-Bling", "Diary", 15, 35, 45 );
+const ebook = new DigitalProduct("1234-ID-Bling", "Ebook", 15, 25, 45);
+console.log(ebook.displayDetails());
+
 const diary = new PhysicalProduct("1234-ID-Bling", "Diary", 15, 35 );
+console.log(diary.displayDetails());
 
 
 //Use a loop to display the details of each product, calculate prices with tax, and display the final prices.

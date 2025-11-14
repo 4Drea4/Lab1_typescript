@@ -4,6 +4,6 @@ export declare class Product {
     price: number;
     constructor(sku: string, name: string, price: number);
     displayDetails(): string;
-    getPriceWithTax(taxDiscount?: number): number;
+    getrPriceWithTax(taxDiscount?: number): number;
 }
 //# sourceMappingURL=Product.d.ts.map

@@ -13,7 +13,7 @@ export class Product {
         return `Product: ${this.name} SKU: ${this.sku} is $${this.price}`;
     }
     // getPriceWithTax() - a method that calculates the final price of the product with tax.
-    getPriceWithTax(taxDiscount = .15) {
+    getrPriceWithTax(taxDiscount = .15) {
         return this.price + this.price * taxDiscount;
     }
 }
