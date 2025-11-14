@@ -13,7 +13,7 @@ constructor (sku: string, name:string, price:number, weight: number , fileSize:n
 }
 // Override the getPriceWithTax() method to calculate a final price with no tax, since the digital products do not require tax.
     getPriceWithTax(taxDiscount: number = 0):
-    number{
+     number{
         return this.price + this.price * taxDiscount;
     }
 // Use a getter method to return the formatted file size in megabytes.
