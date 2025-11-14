@@ -18,7 +18,7 @@ export class Product{
     }
        
         // getPriceWithTax() - a method that calculates the final price of the product with tax.
-    getPriceWithTax(taxDiscount: number = .15): number {
+    getrPriceWithTax(taxDiscount: number = .15): number {
         return this.price + this.price * taxDiscount;
 
     }
