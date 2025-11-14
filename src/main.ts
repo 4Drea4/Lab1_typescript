@@ -17,6 +17,27 @@ console.log(diary.displayDetails());
 
 //Use a loop to display the details of each product, calculate prices with tax, and display the final prices.
 
+// for (  )
+// Map or get 
+//make sure to add stops
+let i = 0 
+while(i< 3 ) {
+    i = i++; 
+
+}
+
+
+if new Product(true){
+
+    return Product.displayDetails();
+
+}
+
+
+
+
+
+
 
 
 
